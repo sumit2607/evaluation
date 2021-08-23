@@ -7,6 +7,7 @@ import android.os.Handler
 import android.view.WindowManager
 
 class SpllashScreen : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
             WindowManager.LayoutParams.FLAG_FULLSCREEN )
